@@ -1,0 +1,62 @@
+-- ARRAYS --
+- an Array is a data structore that stores an assortment of elements
+    in sequential order.
+- just like arrays in java, you can put, move, and remove object in 
+    an arrays
+- General structore:
+    var alphabet = {"a", "b", "c"}
+    // OR
+    var alphabet = {
+        "a",
+        "b",
+        "c"
+    }
+
+-- INDEXING ARRAYS --
+- to get something out of an array you will have to index into the
+    array.
+    - Arrays start at o index, not 1
+- how to assign a specific item in the array an item/something:
+    alphabet[0] === "a";
+- If you try to call something that isn't in the length of the Array, 
+    then it will return an 'undefine'
+
+-- USEFUL METHODS --
+- documentation of how certain methods of an array work:
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+- 'string.split(separator)' - a strig method that splits a String into
+        an array of substring based on what the separator is and 
+        returns the new array.
+            - example:
+                var sentence = "Hey, whats up?" Hello!;
+
+                var words = sentence.split(" ");
+                // In this case word with within a space will be 
+                    put on the array
+- 'string.join(separator)' - a String method that works in the same
+        way of the 'split' method, but it joins the words together by
+        with a separator. 
+- One interesting thing about the 'split' and 'join' methods is that,
+        when put together, they can replace certain elements in a 
+        String
+        - example:
+        'bootcamp prep.split('c').join('x'); // step 1
+        ['boot', 'amp prep'].join('x') // step 2
+        'bootxamp prep' // step 3
+
+-- INTORATING OVER ARRAYS --
+- just like in 'for-loops' where we an iterate numbers within a 
+    certain field, with a 'for-loop' you can iterate through each 
+    item in an array.
+    - example:
+        var names = ["Jacob", "Jeff", "CJ", "Mel"];
+
+        for(var i = 0; i < name.length(); i ++){
+            var name = names[i];
+            console.log(i);
+        }
+
+-- AN IMPORTANT ARRAY PATTERN --
+- just like in java, when refuring to a certain item in an array, 
+        always refer to the item -1 it's index number when calling
+        for it
