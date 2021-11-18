@@ -1,0 +1,23 @@
+-- CONTROLLING COMPLEXITY --
+- If we do not undertand out programs, we will inevitably introduce 
+    bugs
+- Decomposition and Abstructrion:
+    - two ideas that will help understand the complexity of programs
+- the main goal of a programmer is not to write code, but to solve
+    a problem. 
+    - the key to solves these problems is to break them down to be 
+        more understandable and managable.
+
+-- DECOMPOSITION --
+- the process of braking down a larger problem into it's smaller
+    sub-problems.
+
+-- WHEN TO DECOMPISE INTO HELPER FUNCTIONS --
+- there is no rule to decide when and how to decompose a large problem
+- if you find that a single cuntion is getting overly complicated,
+    spilt it off into another helper function to keep things under-
+    standable.
+- aim to keep function to do one thing and do it good.
+
+-- Abstraction --
+- abstruction is the process of hiding details. 
