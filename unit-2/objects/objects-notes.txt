@@ -1,0 +1,29 @@
+- Object Notes -
+- An object is a data structure that stores other data, similar to how an array stores elements,
+- Objects acccociate keys and values
+    - Keys are always strings
+    - values can be any data type
+- Objects differ from arrays in that:
+    - data are always in key-value pairs
+    - objects are indexed by keys
+    - order is not guaranteed in an object
+- Objects are defined by curly brackets "{}"
+
+- Bracket Notion -
+- to create an object and add an item to it you'll need both the key and the value
+    - '[]' is used to give an item a key-value
+    - '=' assigns the key to the value
+    - Example:
+        dog['name'] = 'Rover';
+        dog['type'] = 'Husky';
+        dog['name']; // will return 'Rover'
+        dog['type']; // will return 'Husky'
+        dog {name: 'Rover', type: 'Husky'} // this will assign all the attributes listed for the dog
+- when indexing an Object it can be very similar to indexing an array. The difference is what type of data we use to index. 
+    Objects are indexed using strings.
+
+- Undefined Values in Objects -
+- when attempting to get a key that is not defined in the object you will get an undefined.
+
+- Using Variables as Keys -
+- 
