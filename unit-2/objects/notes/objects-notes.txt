@@ -26,4 +26,32 @@
 - when attempting to get a key that is not defined in the object you will get an undefined.
 
 - Using Variables as Keys -
-- 
+- you can use a variable as a key for Objects
+    - example:
+        dog {name: 'Rover', type: 'Husky'};
+        var myKey = 'name';
+        dog[myKey]; => 'Rover'
+        dog['name'] => 'Rover'
+
+- Dot Notation -
+- "." is used for setting up key-value pairs
+    - example: 
+        dog => {name: 'Rover', type: 'Husky'}
+        dog.bark = "Bowowowo"; => 'Bowowowo'
+        dog.bark; => 'Bowowowo'
+        dog => {name: 'Rover', tpye: 'Husky', bark: 'Bowowowo'}
+
+- Putting it all togethr -
+- An object, 'keys' will always be strings, but the 'values'
+    can be any data type we please, numbers, strings, arrays
+    etc.. 
+
+- Existence in Arrays vs Existence in Object -
+- the general pattern to check if a key is inside of an object:
+    if(obj[key] === undefined){
+        console.log("key is not inside of obj"!);
+    }
+
+- Why are Objects Useful -
+- Generally, using objects is meant to house a single item
+- Another name for 'key-value pair' is 'property'

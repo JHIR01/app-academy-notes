@@ -11,21 +11,18 @@ isPrime(15); // => false
 *******************************************************************************/
 
 function isPrime(number) {
-    if(number < 2){
-        return false;
-    }
-    for(var i = 2; i < number; i ++){
-        if(number % i === 0){
-            return false;
-        }
-    }
-    return true;
-}
+  if (number < 2) {
+    return false;
+  }
 
-console.log(isPrime(-7));
-console.log(isPrime(2));
-console.log(isPrime(11));
-console.log(isPrime(15));
+  for (var i = 2; i < number; i += 1) {
+    if (number % i === 0) {
+      return false;
+    }
+  }
+
+  return true;
+}
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*************************/
 module.exports = isPrime;

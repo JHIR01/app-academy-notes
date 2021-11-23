@@ -1,0 +1,79 @@
+- Methods vs Functions - 
+- A 'method' is essentially a function that belongs to an 
+    object. 
+- Every method is a function, but not every function is a 
+    method.
+    - 'myFunc' is a function
+    - 'myObject.myFunc' is a method of the object 'myObject'
+    - 'myObject["myFunc"]' is a method of an object 
+        'myObject'
+- Methods are just plain old functions at heart. 
+- To call the method we need to specify which object is 
+    calling. 
+    - Example: 
+        dog.bark();
+        obj.methodName();
+
+- 'this' and Methods -
+- the keywords 'this' exists in every fucntion and it 
+    evaluates to the object that is calling the method.
+    - Exmaple: 
+        var dar = {
+            name: 'Fido',
+            isSitting: true,
+            stand: function() {
+                this.isSitting = false;
+                return this.isSitting;
+            }
+        };
+        console.log(dog.isSitting); => // prints 'true'
+        console.log(dog.stand()); => // prints 'false'
+        console.log(dog.isSitting); => // prints 'false'
+- 'this' keyword refers to the object that is calling the 
+    method
+- By using 'this' keyword inside a method, we can refer to 
+    values of the object.
+
+- Why are Objects useful? -
+- creating objects is useful because it makes it easier to 
+    reason about the correctness of our programs.
+
+- Useful Methods -
+- 'obejct.keys' accepts an object as the argument and 
+    returns an array of all of it's keys.
+    - example: 
+        > var dog = {name: "Fido", age: "2"}
+        undefined
+        > Object.keys(dog)
+        ['name', 'age']
+- 'for (var key in object)' special syntax for an object to
+    iterate though each key. This is useful for looping 
+    through the keys and values of an object.
+    - example:
+        var obj = {name: "Mihir", age: "twenty-something"};
+        for (var key in obj){
+            console.log(key);
+        }
+        //prints: 'name', 'age'
+    - If you want to access the values then, you'd switch 
+    - example: 
+        var obejct = {name: "Mihir", age: "twenty-something"};
+        for (var key in obj){
+            var value = obj[key];
+            console.log(value);
+        }
+        // prints 'Mihir', 'twenty-something'
+- Like all variable, you can name the key variable whatever
+    you like. the hope is that you name it something 
+    descriptive. 
+    - example:
+        var dog = {
+            name: 'Fido',
+            color: 'orange',
+            age: 2
+        };
+        for (var potato in dog) {
+            var value = dog[potato];
+            console.log(value);
+        }
+        // prints 'Fido', 'orange', '2'
