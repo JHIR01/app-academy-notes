@@ -1,0 +1,34 @@
+- Multidimensional arrays -
+- a multidimensional array is an array that holds another assortment of arrays
+    - example:
+        var multiArray = [
+            [0, 1, 2],
+            [3, 4],
+            [5, 6, 7]
+        ];
+
+- Indexing Multi-Arrays -
+- to index an item multidimensional array you'll have to get the index of the 
+    array you'll want to index through. afterwards you'll want to get the 
+    inside of the array.
+    - example: 
+        var multiArray = [
+            [0, 1, 2],
+            [3, 4],
+            [5, 6, 7]
+        ]
+        // let's grab the first element of the send sub-array
+        multiArray[1][0]; => 3
+        //seonc element out of the seconc sub-array
+        multiArray[1][1]; => 4
+- the process of getting an element out of an array from another array is called
+    double indexing.
+- you can even index an array out of an array   
+    - example: 
+        return ['a', 'b', 'c'][1] => 'b'
+
+- Iteratinf through Multi-Arrays -
+- to iterate through a multi-array, you'll need to use a nested loop
+- to iterate throuhg a 2D array, the outer loop will iterate through the outer array
+    and the inner loop will iterate through each inner subarray
+    

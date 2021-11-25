@@ -1,0 +1,57 @@
+- Nested Loops -
+- Nestsed loops are loops placed inside another loop.
+    - example:
+        for(var outer = 1; outer <= 3; outer++){
+            console.log("outer counter: ", outer);
+            for(var inner = 1; inner <= 5; inner){
+                console.log("Inner: ", inner);
+            }
+        }
+- Understanding nested loop outputs:
+    - the out loop iterated through 'x' amount of times.
+    - every iteration of a loop, we run all the code insode of the loop's body
+    - once the outer loops iterates, the inner loop will iterate until it has 
+        completed all of it's conditions and the outer loop will iterate again.
+
+- All Possible Pairs -
+- with nested loops you can create pairs of items from an array and have all
+    the possible combinations:
+        - example:
+            var names = ['Eliot', 'Phi', 'Chase'];
+            for(var i = 0; i < name.length; i++){
+                var name1= names[i];
+                for(var j = 0;  j < names.length; j++){
+                    var name2 = names[j];
+                    console.log(name1, name2);
+                }
+            }
+            - this is will print all the differenct combinations the array could 
+                have when placed in groups of 2
+
+- Only Distinct Pairs -
+- in the previous example, the outputs would have duplicates of one pair
+    - example:
+        'x, x' || 'x, y', 'y, x' 
+        - every combiniation shows/appears once.
+    - to ensure that the results are distinct pairs, the counter 'j' will always 
+        have to be greater than 'i'
+        - example:
+            var names = ['Eliot', 'Phi', 'Chase'];
+            for(var i = 0; i < names.length; i++){
+                var name1 = names[i];
+                for(var j = i++; j < names.length; j++){
+                    var name2 = names[j];
+                    console.log(name1, name2);
+                }
+            }
+            - result: 
+                'Eliot Phi'
+                'Eliot Chase'
+                'Phi Chase'
+            - by changing the j index to be one greater than the i index, we 
+                are making is to that the j index is never that the i index
+                was previously since indicies only increase '++' as we 
+                iterate.
+
+- A Distinct Example -
+- linked to 
