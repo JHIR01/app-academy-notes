@@ -1,0 +1,28 @@
+- A nested loop is juts a for loop inside another for loop
+- body of the loop - any code that is meant to run or written in the for-loop
+- example: 
+    for(var i = 1; i <= 3; i++)}{
+        console.log('i', i);
+        for(var j = 1; j <= 5; j++){
+            console.log('   j', j);
+        }
+    }
+    - this will log the first for loop and go into the inner for loop.
+        once the inner for-loop is done looping, then the loop will
+        return back to the outer loop and continue doing the same thing
+        until the out for-loop has met it's conidtions.
+- on every iteration from the outer loop, you'll need to iterate through    
+    everything in the inner loop. 
+
+- nested while-loop - 
+- example:
+    var i = 1;
+    while(i <= 3){
+        console.log("i", i);
+        i++;
+        var j = 0;
+        while(j <= 5){
+            console.log("   j", j);
+            j++;
+        }
+    }
