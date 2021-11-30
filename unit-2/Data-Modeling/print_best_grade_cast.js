@@ -18,6 +18,9 @@ var students3 = [
 
 /**
  * Function that will print the name of the student and their highest test score
+ * - 'getBestScore' gets the best grade of the individual student
+ * - 'printBestGrade' takes in the array of individuals and uses the 'getBestScore' function to get the 
+ *      best score of the student.
  */
 
 function getBestScore(student){
