@@ -10,15 +10,16 @@ greatestCommonFactor(7, 11) => 1
 *******************************************************************************/
 
 function greatestCommonFactor(num1, num2) {
-  var gcf = null;
-  for(var i = 0; i < num2; i++){
-    if((i % num1 === 0 && i % num2 !== 0) || (i % num2 === 0 && i % num1 !== 0)){
+  for(var i = num1; i >= 1; i--){
+    if((num1 % i === 0 && num2 % i === 0)){
       return i;
     }
   }
 }
 
 console.log(greatestCommonFactor(15, 25));
+console.log(greatestCommonFactor(16, 24));
+console.log(greatestCommonFactor(7, 11));
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*************************/
 module.exports = greatestCommonFactor;
