@@ -16,25 +16,8 @@ var students = [
 highestScore(students); //=> 'TD2'
 *******************************************************************************/
 
-function getInitials(student){
-  var studentName = student.name;
-  var names = studentName.split(' ');
-  var initials = names[0][0] + names[1][0];
-  var studentID = student.id;
-  return initials + studentID;
-}
-
-console.log(getInitials({name: 'Fred Sladkey', id: 256, score: 94}));
-console.log({name: 'Fred Sladkey', id: 256, score: 94}.score);
-
 function highestScore(students) {
-  var bestSt = null;
-  for(var i = 0; i < students.lenght; i++){
-    if(students[i].score > bestSt.score || bestSt === null){
-      bestSt = students[i];
-    }
-  }
-  return getInitials(bestSt);
+  
 }
 
 var students = [
@@ -44,7 +27,7 @@ var students = [
   {name: 'Fred Sladkey', id: 256, score: 94}
 ];
  
-highestScore(students); //=> 'TD2'
+console.log(highestScore(students)); //=> 'TD2'
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*************************/
 module.exports = highestScore;

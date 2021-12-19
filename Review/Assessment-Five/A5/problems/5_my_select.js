@@ -21,9 +21,23 @@ var result2 = mySelect([1, 2, 4, 7, 8], isEven);
 result2; // => [ 2, 4, 8 ]
 *******************************************************************************/
 
-function mySelect(arr, cb) {
-  // your code here...
+function isUpper(str) {
+  return str.toUpperCase() === str;
 }
+
+function isEven(n) {
+  return n % 2 === 0;
+}
+
+function mySelect(arr, cb) {
+  
+}
+
+var result1 = mySelect(['BOOTCAMP', 'prep', 'iS', 'COOL'], isUpper);
+console.log(result1); // => [ 'BOOTCAMP', 'COOL' ]
+
+var result2 = mySelect([1, 2, 4, 7, 8], isEven);
+console.log(result2); // => [ 2, 4, 8 ]
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*************************/
 module.exports = mySelect;

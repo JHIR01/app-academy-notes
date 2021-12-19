@@ -18,10 +18,19 @@ var array2 = [12, 9, 20, 13, 14];
 minValueCallback(array2, double); // => 18
 *******************************************************************************/
 
-function minValueCallback(array, cb) {
-  // your code here...
+function double(n) {
+  return n * 2
 }
 
+function minValueCallback(array, cb) {
+  
+}
+
+var array1 = [-2, -7, 0, 8];
+console.log(minValueCallback(array1, Math.abs)); // => 7
+
+var array2 = [12, 9, 20, 13, 14];
+console.log(minValueCallback(array2, double)); // => 18
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*************************/
 module.exports = minValueCallback;

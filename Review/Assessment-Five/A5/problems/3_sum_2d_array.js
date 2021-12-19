@@ -21,8 +21,23 @@ sum2DArray(arr2); // => 3
 *******************************************************************************/
 
 function sum2DArray(array) {
-  // your code here...
+  
 }
+
+var arr1 = [
+  [1,2,3],
+  [4,5],
+  [6],
+];
+console.log(sum2DArray(arr1)); // => 21
+
+var arr2 = [
+  [-10, 2, 3],
+  [1],
+  [10, -5],
+  [2]
+];
+console.log(sum2DArray(arr2)); // => 3
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*************************/
 module.exports = sum2DArray;
