@@ -17,11 +17,6 @@ countUp(20);
 done!
  */
 function countUp(num){
-    if(num >= 10){ // base case
-        return 1;
-    } else {
-        var result = num + countUp(num);
-        return result;
-    }
+    
 }
 console.log(countUp(20));
