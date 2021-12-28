@@ -9,7 +9,7 @@ divisibleByFivePairSum([13, 22, 8, -3, 12]); // => [[ 0, 1 ], [ 0, 3 ], [ 0, 4 ]
 *******************************************************************************/
 
 function divisibleByFivePairSum(array){
-  
+    
 }
 
 console.log(divisibleByFivePairSum([1, 5, 2, 0, 4])); // => [ [ 0, 4 ], [ 1, 3 ] ]

@@ -18,8 +18,19 @@ Difficulty: Medium
 *************************************************************************************/
 
 function shoppingCartCost(cart, prices) {
-
+    var total = 0;
+    for(var i in cart){
+        total += prices[i] * cart[i];
+    }
+    return total;
 }
+
+var prices = {bread: 4, butter: 6, milk: 3, eggs: 7, celery: 1};
+var cart1 = {bread : 2, milk: 1, eggs : 1};
+var cart2 = {milk: 2, celery: 5};
+
+console.log(shoppingCartCost(cart1, prices)); // => 18
+console.log(shoppingCartCost(cart2, prices)); // => 11
 
 /******************** DO NOT MODIFY ANYTHING UNDER THIS LINE *************************/
 

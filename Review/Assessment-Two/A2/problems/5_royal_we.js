@@ -12,7 +12,7 @@ royalWe("Jump for my love") => "Jump for our love"
 *******************************************************************************/
 
 function royalWe(sentence) {
-  
+    
 }
 
 console.log(royalWe("I want to go to the store"));  // => "we want to go to the store"

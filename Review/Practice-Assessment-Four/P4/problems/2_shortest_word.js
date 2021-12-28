@@ -9,7 +9,7 @@ shortestWord('bootcamp prep') => 'prep'
 *******************************************************************************/
 
 function shortestWord(sentence) {
-  
+    
 }
 
 console.log(shortestWord('app academy is cool')); // => 'is'

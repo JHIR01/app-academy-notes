@@ -11,8 +11,17 @@ Difficulty: Easy
 *************************************************************************************/
 
 function negativeSum(arr) {
-
+    var negativeSum = 0;
+    for(var i = 0; i < arr.length; i++){
+        if(arr[i] < 0){
+            negativeSum += arr[i]
+        }
+    }
+    return negativeSum;
 }
+
+console.log(negativeSum([-3, 12, -5, -2, 3])); // => -10
+console.log(negativeSum([2, 1, 7]));           // => 0
 
 /******************** DO NOT MODIFY ANYTHING UNDER THIS LINE *************************/
 

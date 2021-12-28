@@ -16,12 +16,7 @@ isSquare(16) => true
 *******************************************************************************/
 
 function isSquare(number) {
-  for(var i = 0; i < number; i++){
-    if(i * i === number){
-      return true;
-    }
-  }
-  return false;
+  
 }
 
 console.log(isSquare(7)); // => false

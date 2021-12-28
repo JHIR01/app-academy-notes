@@ -11,7 +11,7 @@ longestWord(''); // => ''
 *******************************************************************************/
 
 function longestWord(sentence) {
-  
+    
 }
 
 console.log(longestWord('app academy is cool')); // => 'academy'

@@ -10,11 +10,7 @@ stringRange(3, 20, 5) => '381318'
 *******************************************************************************/
 
 function stringRange(min, max, step) {
-  var newStr = '';
-  for(var i = min; i <= max; i += step){
-    newStr += i;
-  }
-  return newStr;
+  
 }
 
 console.log(stringRange(0, 12, 2)); // => '024681012'

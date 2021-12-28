@@ -12,6 +12,7 @@ magicCipher("twmce" , { m : "n", t : "d", w : "a"}) => "dance"
 *******************************************************************************/
 
 function magicCipher(sentence, cipher){
+    
 }
 
 console.log(magicCipher("add me on facebook" , { a : "c", d : "q"})); // => "cqq me on fccebook"

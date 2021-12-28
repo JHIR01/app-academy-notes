@@ -10,7 +10,7 @@ leastCommonMultiple(24, 26) => 312
 *******************************************************************************/
 
 function leastCommonMultiple(num1, num2) {
-  
+    
 }
 
 console.log(leastCommonMultiple(2, 3)); // => 6

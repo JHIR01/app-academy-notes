@@ -11,7 +11,7 @@ hipsterfyWord('BACKWARDS') => 'BACKWRDS'
 *******************************************************************************/
 
 function hipsterfyWord(word) {
-  
+    
 }
 
 console.log(hipsterfyWord('proper')); // => 'propr'

@@ -12,8 +12,14 @@ Difficulty: Easy
 *************************************************************************************/
 
 function wordSandwich(outerWord, innerWord) {
-  
+    var sandwich = '';
+    sandwich = outerWord.toUpperCase() + innerWord.toLowerCase() + outerWord.toUpperCase();
+    return sandwich;
 }
+
+console.log(wordSandwich('bread', 'cheese'));  // => 'BREADcheeseBREAD'
+console.log(wordSandwich('BREAD', 'CHEESE'));  // => 'BREADcheeseBREAD'
+console.log(wordSandwich('HeLLo', 'worLD'));   // => 'HELLOworldHELLO'
 
 /******************** DO NOT MODIFY ANYTHING UNDER THIS LINE *************************/
 

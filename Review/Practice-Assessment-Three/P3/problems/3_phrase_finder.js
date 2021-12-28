@@ -14,7 +14,7 @@ phraseFinder(['world', 'bootcamp', 'hello', 'prep'], 'hello goodbye') => false
 *******************************************************************************/
 
 function phraseFinder(words, phrase){
-  
+    
 }
 
 console.log(phraseFinder(['world', 'prep', 'hello', 'bootcamp'], 'bootcamp prep')); // => true

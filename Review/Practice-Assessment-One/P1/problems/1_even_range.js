@@ -10,13 +10,7 @@ evenRange(8, 5) => []
 *******************************************************************************/
 
 function evenRange(start, end) {
-  var newArr = [];
-  for(var i = start; i < end; i++){
-    if(i % 2 === 0){
-      newArr.push(i);
-    }
-  }
-  return newArr;
+  
 }
 
 console.log(evenRange(13, 20)); // => [ 14, 16, 18, 20 ]

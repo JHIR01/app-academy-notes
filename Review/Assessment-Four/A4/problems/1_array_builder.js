@@ -11,7 +11,7 @@ arrayBuilder({}); //=> []
 *******************************************************************************/
 
 function arrayBuilder(count) {
-  
+    
 }
 
 console.log(arrayBuilder({'cats': 2, 'dogs': 1})); //=> ['cats', 'cats', 'dogs']

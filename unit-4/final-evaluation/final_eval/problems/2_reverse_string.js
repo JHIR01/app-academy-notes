@@ -11,8 +11,15 @@ Difficulty: Easy
 *************************************************************************************/
 
 function reverseString(str) {
-
+    var newString = '';
+    for(var i = str.length -1; i >= 0; i--){
+        newString += str[i];
+    }
+    return newString;
 }
+
+console.log(reverseString('taco'));        // => 'ocat'
+console.log(reverseString('hello world')); // => 'dlrow olleh'
 
 /******************** DO NOT MODIFY ANYTHING UNDER THIS LINE *************************/
 

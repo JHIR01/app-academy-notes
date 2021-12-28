@@ -20,7 +20,7 @@ firstAndLast([7, 11, 3]); // => 4
 *******************************************************************************/
 
 function firstAndLast(array) { 
-  
+    
 }
 
 console.log(firstAndLast([1, 2, 3, 4])); // => 5

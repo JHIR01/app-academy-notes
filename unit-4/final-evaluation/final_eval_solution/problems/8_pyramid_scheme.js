@@ -61,6 +61,25 @@ function pyramidScheme(base) {
   return pyramid;
 }
 
+var p1 = pyramidScheme([2, 3, 7, 5, 9]);
+console.log(pyramidScheme(p1)); // =>
+ [
+   [ 85 ],
+   [ 37, 48 ],
+   [ 15, 22, 26 ],
+   [ 5, 10, 12, 14 ],
+   [ 2, 3, 7, 5, 9 ]
+ ]
+
+var p2 = pyramidScheme([2, 2, 2, 2]);
+p2 // =>
+ [
+   [ 16 ],
+   [ 8, 8 ],
+   [ 4, 4, 4 ],
+   [ 2, 2, 2, 2 ]
+ ]
+
 /******************** DO NOT MODIFY ANYTHING UNDER THIS LINE *************************/
 
 module.exports = pyramidScheme;

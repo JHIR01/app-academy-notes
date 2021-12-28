@@ -13,7 +13,7 @@ sillyCipher("twmce", { m : "n", t : "d", w : "a"}) //=> 'dan..''
 *******************************************************************************/
 
 function sillyCipher(sentence, cipher){
-  
+    
 }
 
 console.log(sillyCipher("apple" , { a : "c", p : "x", l : "r", e : "o"})); //=> 'cxxro'

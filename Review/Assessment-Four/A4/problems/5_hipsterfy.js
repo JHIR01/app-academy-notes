@@ -11,8 +11,14 @@ hipsterfy("runner anaconda"); // => "runnr anacond"
 hipsterfy("turtle cheeseburger fries"); // => "turtl cheeseburgr fris"
 *******************************************************************************/
 
+function sliceVowel(word)
+
 function removeVowel(word){
-  
+    var vowels = 'aeiouAEIOU'.split('');
+    var words = word.split(' ');
+    for(var i = 0; i < words.length; i++){
+        
+    }
 }
 
 console.log(hipsterfy("proper")); // => "propr"

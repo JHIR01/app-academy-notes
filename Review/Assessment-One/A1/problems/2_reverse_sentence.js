@@ -9,13 +9,7 @@ reverseSentence("Jump, jump for joy") => "joy for jump Jump,"
 *******************************************************************************/
 
 function reverseSentence(sentence) {
-  var words = sentence.split(' ');
-  var newWords = [];
-  for(var i = words.length -1; i >= 0; i--){
-    newWords.push(words[i]);
-  }
-  var newSent = newWords.join(' ');
-  return newSent;
+  
 }
 
 console.log(reverseSentence("Go to the store")); // => "store the to Go"

@@ -10,7 +10,7 @@ minMaxProduct([0, 1, -5, 3, 6]) => -30
 *******************************************************************************/
 
 function minMaxProduct(array){
-  
+    
 }
 
 console.log(minMaxProduct([6, 3, 7, 2])); // => 14

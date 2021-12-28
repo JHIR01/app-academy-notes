@@ -44,8 +44,36 @@ Difficulty: Hard
 *************************************************************************************/
 
 function pyramidScheme(base) {
-
+  var pyramid = [base];
+  while(pyramid.length < base.length){
+    var firstLevel = pyramid[0];
+    var nextLevel = [];
+    for(var i = 0; i < firstLevel.length -1; i++){
+      nextLevel.push(firstLevel[i] + firstLevel[i + 1]);
+    }
+    pyramid.unshift(nextLevel);
+  }
+  return pyramid;
 }
+
+var p1 = pyramidScheme([2, 3, 7, 5, 9]);
+console.log(pyramidScheme(p1)); // =>
+ [
+   [ 85 ],
+   [ 37, 48 ],
+   [ 15, 22, 26 ],
+   [ 5, 10, 12, 14 ],
+   [ 2, 3, 7, 5, 9 ]
+ ]
+
+var p2 = pyramidScheme([2, 2, 2, 2]);
+p2 // =>
+ [
+   [ 16 ],
+   [ 8, 8 ],
+   [ 4, 4, 4 ],
+   [ 2, 2, 2, 2 ]
+ ]
 
 /******************** DO NOT MODIFY ANYTHING UNDER THIS LINE *************************/
 

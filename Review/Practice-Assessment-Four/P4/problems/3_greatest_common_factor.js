@@ -10,7 +10,7 @@ greatestCommonFactor(7, 11) => 1
 *******************************************************************************/
 
 function greatestCommonFactor(num1, num2) {
-  
+    
 }
 
 console.log(greatestCommonFactor(15, 25)); //) => 5

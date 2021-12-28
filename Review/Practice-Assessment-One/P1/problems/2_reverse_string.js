@@ -9,13 +9,7 @@ reverseString("Jump,-jump-for-joy") => "joy-for-jump-Jump,"
 *******************************************************************************/
 
 function reverseString(string) {
-  var reversed = [];
-  var words = string.split('-');
-  for(var i = words.length -1; i >= 0; i--){
-    reversed.push(words[i]);
-  }
-  var newString = reversed.join('-');
-  return newString;
+  
 }
 
 console.log(reverseString("Go-to-the-store")); // => "store-the-to-Go"

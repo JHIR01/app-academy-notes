@@ -17,8 +17,25 @@ Difficulty: Medium
 *************************************************************************************/
 
 function usernames(names) {
-
+  var usernamesArr = [];
+  for(var i = 0; i < names.length; i++){
+    var nameSplit = names[i].split(' ');
+    var firstName = nameSplit[0];
+    var lastName = nameSplit[1];
+    var tempUser = firstName[0].toLowerCase() + lastName.toLowerCase();
+    usernamesArr.push(tempUser);
+  }
+  return usernamesArr;
 }
+
+var names = [
+  'Oscar Alvarez',
+  'Danny Catalano',
+  'Kurstie Ozuna',
+  'Matt Haws'
+];
+
+console.log(usernames(names)); // => [ 'oalvarez', 'dcatalano', 'kozuna', 'mhaws' ]
 
 /******************** DO NOT MODIFY ANYTHING UNDER THIS LINE *************************/
 

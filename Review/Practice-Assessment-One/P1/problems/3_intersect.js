@@ -11,13 +11,7 @@ intersect(['a', 'b', 'c'], ['x', 'y', 'z']) => []
 *******************************************************************************/
 
 function intersect(arr1, arr2) {
-  var common = [];
-  for(var i = 0; i < arr1.length; i++){
-    if(arr2.indexOf(arr1[i]) !== -1){
-      common.push(arr1[i]);
-    }
-  }
-  return common;
+  
 }
 
 console.log(intersect(['a', 'b', 'c', 'd'], ['b', 'd', 'e'])); // => [ 'b', 'd' ]

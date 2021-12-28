@@ -11,13 +11,7 @@ reverseOddRange(9, 5) => []
 *******************************************************************************/
 
 function reverseOddRange(start, end) {
-  var newArr = [];
-  for(var i = end; i > start; i--){
-    if(i % 2 !== 0){
-      newArr.push(i);
-    }
-  }
-  return newArr;
+  
 }
 
 console.log(reverseOddRange(10, 20)); // => [ 19, 17, 15, 13, 11 ]

@@ -9,11 +9,7 @@ range(4,2) => []
 *******************************************************************************/
 
 function range(start, end) {
-  var newArr = [];
-  for(var i = start; i <= end; i++){
-    newArr.push(i);
-  }
-  return newArr;
+  
 }
 
 console.log(range(1,4)); // => [1,2,3,4]

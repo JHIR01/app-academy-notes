@@ -11,11 +11,7 @@ arrayRange(100, 20, 3) => []
 *******************************************************************************/
 
 function arrayRange(min, max, step) {
-  var newArr = [];
-  for(var i = min; i <= max; i += step){
-    newArr.push(i);
-  }
-  return newArr;
+  
 }
 
 console.log(arrayRange(0, 12, 2)); // => [ 0, 2, 4, 6, 8, 10, 12 ]

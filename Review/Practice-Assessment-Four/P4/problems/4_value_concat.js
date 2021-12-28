@@ -13,7 +13,7 @@ valueConcat(['a', 'b', 'c'], {b: 2, c: 3})
 *******************************************************************************/
 
 function valueConcat(array, obj) {
-  
+    
 }
 
 console.log(valueConcat(['alex', 'maurice', 'meagan', 'ali'], {alex: 'bronca', ali: 'harris'}));

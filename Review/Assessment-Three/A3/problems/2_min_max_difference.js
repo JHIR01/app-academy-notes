@@ -11,7 +11,7 @@ minMaxDifference([4,2,5,1,-5]) => 10
 *******************************************************************************/
 
 function minMaxDifference(array){
-  
+    
 }
 
 console.log(minMaxDifference([1,2,3,4,5])); // => 4
