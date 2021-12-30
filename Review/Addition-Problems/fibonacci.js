@@ -13,3 +13,10 @@ fibonacci(3); =>  1, 1, 2
 fibonacci(5); =>  1, 1, 2, 3, 5 
 fibonacci(10); =>  1, 1, 2, 3, 5, 8, 13, 21, 34, 55 
  */
+
+function fibonacci(num){
+    var seq = [];
+    for(var i = 0; i < num; i++){
+        
+    }
+}
