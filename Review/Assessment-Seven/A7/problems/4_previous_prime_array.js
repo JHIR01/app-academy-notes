@@ -11,7 +11,7 @@ previousPrimeArray([17, 24, 29, 5, 2, 4]); // => [ 13, 24, 23, 3, null, 4 ]
 *******************************************************************************/
 
 function previousPrimeArray(array) {
-  
+    
 }
 
 console.log(previousPrimeArray([10, 12, 11, 7, 16])); // => [ 10, 12, 7, 5, 16 ]

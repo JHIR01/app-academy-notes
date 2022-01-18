@@ -16,7 +16,7 @@ hasSymmetry(['cat', 'dog', 'bird', 'bird', 'cat']) => false
 *******************************************************************************/
 
 function hasSymmetry(array) {
-  
+    
 }
 
 console.log(hasSymmetry([1, 2, 3, 3, 2, 1])); // => true

@@ -10,7 +10,9 @@ removeNthLetter('bootcamp', 4); => 'bootamp'
 removeNthLetter('computer', 3); => 'comuter'
  */
 function removeNthLetter(word, n){
-    
+    var firstHalf = word.slice(0, n);
+    var rest = word.slice(n);
+    return firstHalf + rest;
 }
 
 console.log(removeNthLetter('bootcamp', 0)); // => 'ootcamp'

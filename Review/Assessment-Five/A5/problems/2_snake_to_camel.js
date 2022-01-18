@@ -13,7 +13,7 @@ snakeToCamel('BOOtcamp_PREP_iS_cOol'); // => 'BootcampPrepIsCool'
 *******************************************************************************/
 
 function snakeToCamel(str) {
-  
+    
 }
 
 console.log(snakeToCamel('snakes_go_hiss')); // => 'SnakesGoHiss'

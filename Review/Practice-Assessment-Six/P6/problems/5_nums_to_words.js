@@ -11,7 +11,7 @@ numsToWords('159598') => 'OneFiveNineFiveNineEight'
 *******************************************************************************/
 
 function numsToWords(numString) {
-  
+    
 }
 
 console.log(numsToWords('42')); // => 'FourTwo'

@@ -12,7 +12,7 @@ nextPrimeArray([]) => []
 *******************************************************************************/
 
 function nextPrimeArray(array) {
-  
+    
 }
 
 console.log(nextPrimeArray([-4, 2, 5, 4, 11])); // => [ -4, 3, 7, 4, 13 ]

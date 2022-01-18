@@ -10,8 +10,8 @@ variableNameify(['remove', 'last', 'vowel']) => 'removeLastVowel'
 variableNameify(['MaX', 'VALUE']) => 'maxValue'
 *******************************************************************************/
 
-function capWord(word){
-  
+function variableNameify(word){
+    
 }
 
 console.log(variableNameify(['is', 'prime'])); // => 'isPrime'

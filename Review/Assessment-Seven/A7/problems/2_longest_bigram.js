@@ -13,7 +13,7 @@ longestBigram("his last assessment is fun"); // => 'last assessment'
 *******************************************************************************/
 
 function longestBigram(sentence) {
-  
+    
 }
 
 console.log(longestBigram('measure twice cut once')); // => 'measure twice'

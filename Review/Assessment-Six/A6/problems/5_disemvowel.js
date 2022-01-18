@@ -1,4 +1,4 @@
-/*******************************************************************************
+ /*******************************************************************************
 Write a function disemvowel(string) that takes in a string and returns the
 string with all vowels removed.
 
@@ -10,7 +10,7 @@ disemvowel('hello world'); // => 'hll wrld'
 *******************************************************************************/
 
 function disemvowel(string) {
-  
+    
 }
 
 console.log(disemvowel('bootcamp')); // => 'btcmp'

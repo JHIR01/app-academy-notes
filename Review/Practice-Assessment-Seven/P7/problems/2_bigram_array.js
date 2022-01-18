@@ -10,7 +10,7 @@ bigramArray('bigrams are very useful') => [ 'bigrams are', 'are very', 'very use
 *******************************************************************************/
 
 function bigramArray(sentence) {
-  
+    
 }
 
 console.log(bigramArray('today is a great day')); // => [ 'today is', 'is a', 'a great', 'great day' ]

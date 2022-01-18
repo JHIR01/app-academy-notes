@@ -12,7 +12,7 @@ isPalindrome('hello world'); // => false
 *******************************************************************************/
 
 function isPalindrome(sentence) {
-  
+    
 }
 
 console.log(isPalindrome('rats live on no evil star')); // => true

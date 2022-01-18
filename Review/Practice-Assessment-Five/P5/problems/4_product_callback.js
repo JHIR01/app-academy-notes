@@ -10,7 +10,7 @@ productCallback(12, 3, Math.sqrt) // => 6
 *******************************************************************************/
 
 function productCallback(num1, num2, cb) {
-  
+    
 }
 
 console.log(productCallback(-2, 6, Math.abs)); // => 12

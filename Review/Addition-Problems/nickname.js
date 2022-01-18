@@ -13,3 +13,8 @@ nickname('bob'); => 'BOB-BOB'
 function nickname(name){
     
 }
+
+console.log(nickname('manuel')); // => 'MANU-MANU'
+console.log(nickname('pikachu')); // => 'PIKA-PIKA'
+console.log(nickname('bootcamp')); // => 'BOO-BOO'
+console.log(nickname('bob')); // => 'BOB-BOB'

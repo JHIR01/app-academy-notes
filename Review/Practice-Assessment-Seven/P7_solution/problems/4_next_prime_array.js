@@ -50,5 +50,9 @@ function nextPrimeArray(array) {
   return newArr;
 }
 
+console.log(nextPrimeArray([-4, 2, 5, 4, 11])); // => [ -4, 3, 7, 4, 13 ]
+console.log(nextPrimeArray([9, 13, 5, 6])); // => [ 9, 17, 7, 6 ]
+console.log(nextPrimeArray([]) ); // => []
+
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*************************/
 module.exports = nextPrimeArray;

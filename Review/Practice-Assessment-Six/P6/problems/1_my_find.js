@@ -23,7 +23,7 @@ myFind([3, 5, 9], isEven) => undefined
 *******************************************************************************/
 
 function myFind(arr, cb) {
-  
+
 }
 
 function isUpper(str) {

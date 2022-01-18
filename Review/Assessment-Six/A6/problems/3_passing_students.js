@@ -20,7 +20,7 @@ var students = [
     "name": "Haseeb",
     "id": 94110,
     "grades": [{"id": 0, "score": 65}, {"id": 1, "score": 60}, {"id": 2, "score": 65}]
-  }
+  }`
 ];
 
 passingStudents(students); // => [ 'Kush', 'Ned' ]

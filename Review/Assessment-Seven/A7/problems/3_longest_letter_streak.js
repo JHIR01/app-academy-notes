@@ -18,7 +18,7 @@ longestLetterStreak("YYYYY", ["Z", "K", "Y"]); // => 5
 *******************************************************************************/
 
 function longestLetterStreak(str, searchLetters) {
-  
+    
 }
 
 console.log(longestLetterStreak("ACCA", ["C"])); // => 2

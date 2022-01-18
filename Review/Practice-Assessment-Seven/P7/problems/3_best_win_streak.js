@@ -12,7 +12,7 @@ bestWinStreak('LLL') => 0
 *******************************************************************************/
 
 function bestWinStreak(str) {
-  
+    
 }
 
 console.log(bestWinStreak('WWLWWWLWW')); // => 3

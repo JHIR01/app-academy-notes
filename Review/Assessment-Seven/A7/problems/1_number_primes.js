@@ -12,7 +12,7 @@ numberPrimes(100); // => 25
 *******************************************************************************/
 
 function numberPrimes(n) {
-  
+    
 }
 
 console.log(numberPrimes(10)); // => 4

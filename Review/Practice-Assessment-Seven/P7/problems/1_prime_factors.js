@@ -12,7 +12,7 @@ primeFactors(11) => [11]
 *******************************************************************************/
 
 function primeFactors(num) {
-  
+    
 }
 
 console.log(primeFactors(10)); // => [ 2, 5 ]
